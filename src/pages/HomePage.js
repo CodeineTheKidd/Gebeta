@@ -1,19 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../App.css'
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
     <div className="homepage">
-      <header>
-        <nav>
-          <a href="/about">About</a>
-          <a href="/documentation">Documentation</a>
-          <a href="/contact">Contact Us</a>
-          <button>Sign up</button>
-          <button>Sign in</button>
-        </nav>
-      </header>
-
+      <NavBar />
       <main>
         <section>
           <h1>GEBETAMAPS</h1>
@@ -22,7 +15,7 @@ const HomePage = () => {
           <a href="/#docpreview">Learn More</a>
           <button>Get Started</button>
           <h3>Geo-Coding, Matrix Endpoint Direction Endpoint, One-to-many Endpoint</h3>
-           <button>Watch Preview</button>
+          <button>Watch Preview</button>
         </section>
 
         <section>
@@ -39,7 +32,7 @@ const HomePage = () => {
 
         <section>
           <h2>ROUTE OPTIMIZATION ENDPOINT</h2>
-         <p>The Gebeta Optimization API returns a path between the input coordinates that is optimized. Planning the route for delivery in a city is a common use case for the Optimization API.</p>
+          <p>The Gebeta Optimization API returns a path between the input coordinates that is optimized. Planning the route for delivery in a city is a common use case for the Optimization API.</p>
           <a href="/documentation#routeEP">Documentation</a>
         </section>
 
@@ -47,30 +40,10 @@ const HomePage = () => {
           <h2>MATRIX ENDPOINT</h2>
           <p>By using the Gebeta Matrix API, you may choose the most efficient path between several places.</p>
           <a href="/documentation#matrixEP">Documentation</a>
-         </section>
-
-         <section>
-          <h2>GEBETAMAPS PRODUCTS</h2>
-          <ul>
-            <li><a href="/documentation#routeEP">Route Optimization API</a></li>
-            <li><a href="/documentation#directionEP">Direction API</a></li>
-            <li><a href="/documentation#matrixEP">Matrix Endpoint</a></li>
-            <li><a href="/documentation#ONMEP">One-to-many Endpoint</a></li>
-            <li><a href="/documentation#geoEP">Geocoding Endpoint</a></li>
-          </ul>
-         </section>
+        </section>
+        <Footer />
       </main>
-      
-      <footer>
-        <p>
-          <a href="https://www.linkedin.com/company/gebetamaps/">LinkedIn</a>
-          <a href="https://twitter.com/GebetaMaps">Twitter</a>
-          <a href="https://instagram.com/gebetamaps">Instagram</a>
-          <a href="/contact">Contact Us</a>
-          <a href="/about">About</a>
-        </p>
-        <p>Info: info@gebeta.app, Number: +251912629132</p>
-      </footer>
+
     </div>
   );
 }
