@@ -1,28 +1,22 @@
-.homepage {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+body {
+  background: rgb(25 25 26/1);
+  color: slategray;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 10px 20px;
-  background-color: #f8f9fa;
-}
-
-nav a, footer a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: black;
+  background-color: transparent;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #F2994A;
   color: white;
-  border: none;
+  border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 4px 10px;
+  margin: 3px 8px;
 }
 
 h1, h2 {
@@ -34,10 +28,12 @@ h1, h2 {
   padding: 20px 0;
 }
 
+.card {
+  @apply max-w-lg max-h-40 block border-spacing-0 border-gray-900
+}
 footer {
-  @apply grid grid-cols-2;
-  background-color: #f8f9fa;
+  @apply bg-footer grid grid-cols-2;
   padding: 20px;
   text-align: center;
-  border-top: 1px solid #dee2e6;
+  box-shadow: inset;
 }

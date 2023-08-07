@@ -2,7 +2,8 @@ const Footer = () => {
   return (
     <footer>
       <section>
-        <h2>GEBETAMAPS PRODUCTS</h2>
+        <div color="F2994A">gebetamaps</div>
+        <h2>PRODUCTS</h2>
         <ul>
           <li><a href="/documentation#routeEP">Route Optimization API</a></li>
           <li><a href="/documentation#directionEP">Direction API</a></li>

@@ -2,22 +2,14 @@ import React from 'react';
 import '../App.css'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const HomePage = () => {
   return (
     <div className="homepage">
       <NavBar />
       <main>
-        <section>
-          <h1>GEBETAMAPS</h1>
-          <h2>ROUTING, DIRECTION AND MAP API SERVICE</h2>
-          <p>Let us find your way</p>
-          <a href="/#docpreview">Learn More</a>
-          <button>Get Started</button>
-          <h3>Geo-Coding, Matrix Endpoint Direction Endpoint, One-to-many Endpoint</h3>
-          <button>Watch Preview</button>
-        </section>
-
+        <Header/>
         <section>
           <h2>DIRECTION ENDPOINT</h2>
           <p>You can find directions to your destination using the Gebeta Directions API. Using the Directions API, you can determine the best route to take. </p>
