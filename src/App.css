@@ -28,7 +28,7 @@ h1 {
   @apply max-w-lg max-h-40 block border-spacing-0 border-gray-900
 }
 header {
-  @apply content-center bg-header bg-right-top bg-no-repeat;
+  @apply content-center bg-right-top bg-no-repeat;
 }
 footer {
   @apply bg-footer grid grid-cols-2;
