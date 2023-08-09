@@ -4,7 +4,9 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
+  @apply mx-9 leading-relaxed;
+  background-color: #19191a;
+  color: slategray;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
