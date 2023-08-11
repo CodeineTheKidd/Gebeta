@@ -1,11 +1,11 @@
 import Logo from "../assets/images/logowithtext.png";
 const NavBar = () => {
   return (
-    <nav className="gap-8">
+    <nav className="flex flex-1 justify-start gap-5">
       <img src={Logo} alt="Logo" />
       <span color="white"></span>
-      <div className="flex justify-end gap-5">
-        <button>Sign up</button>
+      <div className="flex flex-1 justify-end gap-3">
+        <button className="btn-primary">Sign up</button>
         <button>Sign in</button>
       </div>
     </nav>

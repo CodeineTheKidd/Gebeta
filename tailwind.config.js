@@ -7,6 +7,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '450px',
+      'lg': '1024px',
+    },
     minWidth: {
       '0': '0',
       '1/4': '25%',
@@ -19,6 +23,7 @@ module.exports = {
         poppins: 'Poppins'
       },
       backgroundImage: {
+        'header': "url(./assets/images/running.png)",
         'footer': "url(./assets/images/newbg6.png)"
       }
     },

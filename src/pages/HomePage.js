@@ -3,19 +3,28 @@ import '../App.css'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Card from '../components/Card';
+import direction from '../assets/images/docs/direction.png';
+
 
 const HomePage = () => {
+  const cardData = [
+    { image: {direction}, description: 'Description for Card 1' }
+  ];
   return (
     <div className="homepage">
       <NavBar />
       <main>
-        <Header/>
+        <Header />
         <section>
           <h2>DIRECTION ENDPOINT</h2>
           <p>You can find directions to your destination using the Gebeta Directions API. Using the Directions API, you can determine the best route to take. </p>
           <a href="/documentation#directionEP">Documentation</a>
         </section>
-
+        <div className="card-list">
+            {/* <img src={direction} alt="" /> */}
+            <Card image={direction} title={cardData.description}/>
+        </div>
         <section>
           <h2>GEOCODING ENDPOINT</h2>
           <p>You can forward geocode using the Gebeta Geocoding API, which converts text queries like "Bole Edna Mall" into longitude and latitude coordinates.</p>

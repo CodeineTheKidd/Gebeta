@@ -4,13 +4,13 @@ const Footer = () => {
       <section>
         <div color="F2994A">gebetamaps</div>
         <h2>PRODUCTS</h2>
-        <ul>
-          <li><a href="/documentation#routeEP">Route Optimization API</a></li>
-          <li><a href="/documentation#directionEP">Direction API</a></li>
-          <li><a href="/documentation#matrixEP">Matrix Endpoint</a></li>
-          <li><a href="/documentation#ONMEP">One-to-many Endpoint</a></li>
-          <li><a href="/documentation#geoEP">Geocoding Endpoint</a></li>
-        </ul>
+        <div>
+          <p><a href="/documentation#routeEP">Route Optimization API</a></p>
+          <p><a href="/documentation#directionEP">Direction API</a></p>
+          <p><a href="/documentation#matrixEP">Matrix Endpoint</a></p>
+          <p><a href="/documentation#ONMEP">One-to-many Endpoint</a></p>
+          <p><a href="/documentation#geoEP">Geocoding Endpoint</a></p>
+        </div>
       </section>
       <p>
         <a href="https://www.linkedin.com/company/gebetamaps/">LinkedIn</a>

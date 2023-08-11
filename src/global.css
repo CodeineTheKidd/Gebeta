@@ -9,14 +9,13 @@
 }
 
 body {
-  @apply mx-9 leading-relaxed font-poppins;
-  background-color: #19191a;
+  @apply mx-9 leading-relaxed font-poppins bg-stone-900;
   color: slategray;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
