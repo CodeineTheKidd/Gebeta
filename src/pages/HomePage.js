@@ -4,12 +4,11 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Card from '../components/Card';
-import direction from '../assets/images/docs/direction.png';
 
 
 const HomePage = () => {
   const cardData = [
-    { image: {direction}, description: 'Description for Card 1' }
+    { image: '../assets/images/docs/direction.png', description: 'Description for Card 1' }
   ];
   return (
     <div className="homepage">
@@ -22,8 +21,9 @@ const HomePage = () => {
           <a href="/documentation#directionEP">Documentation</a>
         </section>
         <div className="card-list">
+            <img src={cardData[0].image} alt="Shit" />
             {/* <img src={direction} alt="" /> */}
-            <Card image={direction} title={cardData.description}/>
+            <Card image={cardData[0].image} title={cardData[0].description} description={cardData[0].description}/>
         </div>
         <section>
           <h2>GEOCODING ENDPOINT</h2>

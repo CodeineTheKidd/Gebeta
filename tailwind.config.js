@@ -24,7 +24,8 @@ module.exports = {
       },
       backgroundImage: {
         'header': "url(./assets/images/running.png)",
-        'footer': "url(./assets/images/newbg6.png)"
+        'footer': "url(./assets/images/newbg6.png)",
+        'form': "url(./assets/images/full.jpg)"
       }
     },
   },

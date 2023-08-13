@@ -12,8 +12,8 @@ const Header = () => {
         <button className="btn-primary">Get Started</button>
       </div>
       <div className="flex flex-wrap items-center my-3">
-        <iframe width="300" height="150" src="https://www.youtube.com/embed/pTD69UWcH5Q" title="Introducing Gebeta Maps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-        <p className="flex-1 px-2">Geo-Coding, Matrix Endpoint Direction Endpoint, One-to-many Endpoints Preview</p>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/pTD69UWcH5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p className="flex-1 px-2">Geo-Coding, Matrix Endpoint Direction Endpoint, One-to-many Endpoints Preview</p>
       </div>
     </header>
   );

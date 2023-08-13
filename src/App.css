@@ -1,3 +1,35 @@
+.Login,
+.Signup {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black
+}
+
+.form-container,
+.Login-form,
+.Signup-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem
+}
+
+.link-btn {
+  background: none;
+  text-decoration: underline
+}
 
 nav {
   @apply py-2 px-3
@@ -10,6 +42,7 @@ button {
 .btn-primary {
   @apply bg-orange-500 text-white
 }
+
 /* .btn-secondary {
   @apply bg-transparent border- text
 }
@@ -28,9 +61,11 @@ h1 {
 .card {
   @apply max-w-lg max-h-40 block border-spacing-0 border-gray-900
 }
+
 header {
   @apply content-center bg-right-top bg-no-repeat;
 }
+
 footer {
   @apply bg-footer grid grid-cols-2;
   padding: 20px;
