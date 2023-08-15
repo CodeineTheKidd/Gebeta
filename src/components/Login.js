@@ -11,7 +11,7 @@ export const Login = (props) => {
     console.log (email);
   }
   return(
- <div className= "form-container bg-form"> 
+ <div className= "form-container bg-form2 bg-no-repeat p-10"> 
   
    <form className= "Login-form" onSubmit={handlesubmit}>
       <input value= {email} onChange={(e) => setEmail (e.target.value)}type="email"placeholder="youremail@gmail.com" id="email"

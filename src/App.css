@@ -1,13 +1,9 @@
-.Login,
-.Signup {
+.form-container {
   text-align: center;
-  display: flex;
-  min-height: 100vh;
+  overflow: visible;
   align-items: center;
   justify-content: center;
-  color: black
 }
-
 .form-container,
 .Login-form,
 .Signup-form {

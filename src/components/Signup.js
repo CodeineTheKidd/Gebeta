@@ -10,7 +10,7 @@ export const Signup = (props) => {
   }
 
   return (
-    <div className="form-container bg-form">
+    <div className="form-container bg-form bg-no-repeat">
 
       <form className="Signup-form" onSubmit={handlesubmit}>
         <label htmlFor="name"> Company name </label>
